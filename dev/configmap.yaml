@@ -8,26 +8,11 @@ flux:
 eckoperator:
   enabled: false
 
+jaeger:
+  enabled: false
+
 logging:
   enabled: false
-  values:
-    elasticsearch:
-      master:
-        count: 1
-        persistence:
-          size: 5Gi
-        resources:
-          requests:
-            cpu: .5
-          limits: {}
-      data:
-        count: 1
-        persistence:
-          size: 5Gi
-        resources:
-          requests:
-            cpu: .5
-          limits: {}
 
 fluentbit:
   enabled: false
