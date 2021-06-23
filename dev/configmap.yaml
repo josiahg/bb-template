@@ -5,6 +5,9 @@ flux:
   rollback:
     cleanupOnFail: false
 
+clusterAuditor:
+  enabled: false
+
 logging:
   enabled: false
   values:
