@@ -5,9 +5,6 @@ flux:
   rollback:
     cleanupOnFail: false
 
-clusterAuditor:
-  enabled: false
-
 logging:
   enabled: false
   values:
@@ -44,7 +41,7 @@ istio:
           strategy: "anonymous"
 
 clusterAuditor:
-  enabled: true
+  enabled: false
   values:
     resources:
       requests:
