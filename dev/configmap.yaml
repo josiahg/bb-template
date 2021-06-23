@@ -5,6 +5,9 @@ flux:
   rollback:
     cleanupOnFail: false
 
+jaeger:
+  enabled: false
+
 logging:
   enabled: false
   values:
