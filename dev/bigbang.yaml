@@ -13,8 +13,6 @@ spec:
   url: https://github.com/josiahg/bb-template.git 
   ref:
     branch: template-demo
-  secretRef:
-    name: private-git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
