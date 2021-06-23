@@ -10,7 +10,7 @@ logging:
   values:
     elasticsearch:
       master:
-        count: 1
+        count: 0
         persistence:
           size: 5Gi
         resources:
@@ -18,7 +18,7 @@ logging:
             cpu: .5
           limits: {}
       data:
-        count: 1
+        count: 0
         persistence:
           size: 5Gi
         resources:
@@ -101,7 +101,7 @@ gatekeeper:
       limits: {}
 
 twistlock:
-  enabled: false
+  enabled: true
   values:
     console:
       persistence:
