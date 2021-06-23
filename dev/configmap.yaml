@@ -5,6 +5,9 @@ flux:
   rollback:
     cleanupOnFail: false
 
+eckoperator:
+  enabled: false
+
 logging:
   enabled: false
   values:
@@ -27,6 +30,7 @@ logging:
           limits: {}
 
 fluentbit:
+  enabled: false
   values:
     securityContext:
       privileged: true
