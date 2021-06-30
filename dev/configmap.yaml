@@ -29,6 +29,9 @@ logging:
             cpu: .5
           limits: {}
 
+eckoperator:
+  enabled: false
+
 fluentbit:
   enabled: false
   values:
