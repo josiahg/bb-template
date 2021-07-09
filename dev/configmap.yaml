@@ -9,7 +9,7 @@ jaeger:
   enabled: false
 
 logging:
-  enabled: true
+  enabled: false
   values:
     elasticsearch:
       master:
